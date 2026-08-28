@@ -1,0 +1,7 @@
+DATABASE_URL= *************
+JWT_SECRET_KEY= ***********
+JWT_ALGORITHM=HS256
+JWT_EXPIRE_MINUTES=60
+MODEL_PATH=app/ml/final_model.pt
+SCALER_PATH=app/ml/scaler.pkl
+STORAGE_DIR=storage

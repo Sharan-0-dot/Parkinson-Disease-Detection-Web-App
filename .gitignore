@@ -1,0 +1,11 @@
+
+.env
+
+backend_context.md
+frontend_context.md
+
+data/
+storage/
+scripts/
+
+venv/

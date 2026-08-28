@@ -1,0 +1,14 @@
+fastapi[standard]
+sqlalchemy
+psycopg2-binary
+python-jose[cryptography]
+bcrypt
+python-multipart
+pydantic-settings
+praat-parselmouth
+torch
+scikit-learn
+joblib
+pandas
+numpy
+pydub
