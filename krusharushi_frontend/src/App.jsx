@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import ProtectedRoute from "./components/layout/ProtectedRoute";
 import Navbar from "./components/layout/Navbar";
@@ -82,6 +82,7 @@ export default function App() {
             }
           />
         </Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>
   );
